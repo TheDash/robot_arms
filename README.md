@@ -19,10 +19,10 @@ Adding arms with MoveIt! Enabled to *any* robot:
 
     d) **robot_moveit_config**: the combined moveit_config for the rest of the robot and the arm.
 
-    e) ***optional arm_planner***: a customized planning library for your arm if you are not satisfied with the default planners
+    e) ***optional* arm_planner**: a customized planning library for your arm if you are not satisfied with the default planners
 
-    f) ***modification robot_bringup**: your robot will need to modify the bringup to include the arm drivers, control scheme, and moveit_configs.
+    f) ***modification* robot_bringup**: your robot will need to modify the bringup to include the arm drivers, control scheme, and moveit_configs.
 
-    g) ***modification robot_description***: your original robot description will need to add a mounting link for the arm_description.
+    g) ***modification* robot_description**: your original robot description will need to add a mounting link for the arm_description.
 
 
