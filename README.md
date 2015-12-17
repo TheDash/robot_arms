@@ -1,5 +1,8 @@
 # robot_arms
-This package helps you with adding ROS arms to ROS robots.
+This package helps you with adding ROS arms to ROS robots. What this package *can* help you with is combining two ROS enabled robots defined by URDF that both have drivers, ros_control, and gazebo enabled for them.
+It cannot write the gazebo package, the driver, or the description for the arm or robot for you. A good example of what it can do is combining the Clearpath Robotics Husky mobile platform with a ROS enabled UR5 arm. Both of these have the necessary components to be ready for combination with this package. 
+
+Another example would be combining a Clearpath Robotics Ridgeback with a Baxter, or UR-X arm.
 
 
 Adding arms with MoveIt! Enabled to *any* robot:
